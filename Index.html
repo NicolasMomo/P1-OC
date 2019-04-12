@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>WebAgency</title>
+    <meta name="description" content="WebAgency. Création de sites, référencement, design." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="projet1.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet" />
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="WebAgency, l'agence de tous vos projets" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.web-agency-oc.fr/" />
+    <meta property="og:image" content="http://www.web-agency-oc.fr/logo2.png" />
+    <meta property="og:description" content="WebAgency. Création de sites, référencement, design." />
+
+</head>
+
+<body>
+
+    <!--        Menu fixe        -->
+
+    <header class="menufixe">
+        <a id="logo" href="#top">
+            <p>
+                <img src="images/logo2.png" alt="logo" class="logo" />
+            </p>
+        </a>
+        <nav>
+            <ul class="menu">
+                <li class="bouton1"><a href="#top">Accueil</a></li>
+                <li class="bouton1"><a href="#services">Services</a></li>
+                <li class="bouton1"><a href="#portfolio">Portfolio</a></li>
+                <li class="bouton1"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--      En-tête du site       -->
+
+    <div id="top"></div>
+    <section id="accueil">
+        <div class="lefts">
+            <i class="fas fa-angle-left"></i>
+        </div>
+        <div id="resume">
+            <div class="smartphone">
+                <img src="images/logo2.png" alt="logo" class="logosmarphone" />
+            </div>
+            <h1><span id="web"><strong class="web">Webagency</strong></span><span class="phone">:</span> l'agence de tous vos projets !</h1>
+
+            <p class="descriptionaccueil">Vous avez un projet web ? La <strong class="web">WebAgency</strong> vous aide à le réaliser!</p>
+            <br />
+            <div class="bouton">
+                <p><a href="#services" class="info">Plus d'infos</a></p>
+            </div>
+        </div>
+        <div class="rights">
+            <i class="fas fa-angle-right"></i>
+        </div>
+    </section>
+
+    <!--        Nos Services        -->
+
+    <section id="services">
+        <header class="header">
+            <h2>NOS SERVICES</h2>
+            <p><img src="images/separateur.jpg" alt="separateur" class="separateur" /></p>
+            <p class="nosservicesdescription"><strong class="web">WebAgency</strong> crée et développe votre projet en alliant design et solutions techniques. Nous vous accompagnons dans l'élaboration d'une maquette jusqu'à la mise en ligne de votre site Internet tout en vous proposant des solutions sur-mesure.</p>
+        </header>
+
+        <div id="nosservices">
+
+            <p><img src="main-feature.png" alt="feature" class="feature" /></p>
+
+            <aside>
+                <div class="services">
+
+                    <p class="servicesimg"><img src="images/uxdesign.jpg" alt="iconeuxdesign" class="img" /></p>
+
+                    <article class="servicesnom">
+                        <h3>UX design</h3>
+                        <p class="servicedescription">Nous privilégions une approche centrée sur l'utilisateur en vous proposant des <strong>solutions performantes</strong> qui vous démarqueront de la concurrence et qui séduiront vos clients. Votre site sera à la fois <strong>accessible</strong>, <strong>ergonomique</strong>, et <strong>adaptatif</strong> grâce au <strong>Responsive Web Design</strong>.</p>
+                    </article>
+                </div>
+
+                <div class="services">
+
+                    <p class="servicesimg"><img src="images/uidesign.jpg" alt="iconeuidesign" /></p>
+
+                    <article class="servicesnom">
+                        <h3>UI design</h3>
+                        <p class="servicedescription">Nous créeons une interface qui s'adapte à tous les types d'écrans tout en respectant <strong>l'identité visuelle</strong> de votre projet en mettant en place une <strong>charte graphique pratique</strong> et <strong>intuitive</strong> de <strong>qualité</strong>, dans l'esprit de votre entreprise.</p>
+                    </article>
+                </div>
+
+                <div class="services">
+
+                    <p class="servicesimg"><img src="images/seo.jpg" alt="iconeseo" /></p>
+
+                    <article class="servicesnom">
+                        <h3>SEO</h3>
+                        <p class="servicedescription">Nous vous assurons la <strong>meilleure visibilité</strong> de votre site auprès des internautes sur les recherches en rapport avec vos produits et services par le <strong>référencement naturel</strong>.</p>
+                    </article>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    <!--        Portfolio        -->
+
+    <section id="portfolio">
+
+        <header class="header">
+            <h2>NOS PROJETS</h2>
+            <p><img src="images/separateur2.png" alt="separateur" class="separateur" /></p>
+            <p class="portfoliodescription">Voici quelques exemples de nos derniers projets réalisé pour nos clients.</p>
+
+            <nav class="choix">
+                <button id="showAll" class="filtre survol active" focus>
+                    All works
+                    <span></span>
+                </button>
+
+                <button id="showCreative" class="filtre survol">
+                    Creative
+                    <span></span>
+                </button>
+
+                <button id="showCorporate" class="filtre survol">
+                    Corporate
+                    <span></span>
+                </button>
+
+                <button id="showPortfolio" class="filtre survol">
+                    Portfolio
+                    <span></span>
+                </button>
+            </nav>
+
+        </header>
+
+        <div id="projetimage">
+            <figure class="creative">
+                <p><img src="images/01.jpg" alt="lunettes" class="images" /></p>
+                <figcaption>
+                    <p> Creative </p>
+                    <div>
+                        <p><i class="far fa-eye" aria-hidden="true"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="creative">
+                <p><img src="images/02.jpg" alt="lapinrose" class="images" /></p>
+                <figcaption>
+                    <p> Creative </p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="corporate">
+                <p><img src="images/03.jpg" alt="marquepompadour" class="images" /></p>
+                <figcaption>
+                    <p> Corporate </p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="portfolio">
+                <p><img src="images/04.jpg" alt="papier" class="images" /></p>
+                <figcaption>
+                    <p> Portfolio </p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="portfolio">
+                <p><img src="images/05.jpg" alt="sacshopping" class="images" /></p>
+                <figcaption>
+                    <p> Portfolio</p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="corporate">
+                <p><img src="images/06.jpg" alt="ville" class="images" /></p>
+                <figcaption>
+                    <p> Corporate </p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="creative">
+                <p><img src="images/07.jpg" alt="fusée" class="images" /></p>
+                <figcaption>
+                    <p> Creative </p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+            <figure class="portfolio">
+                <p><img src="images/08.jpg" alt="objets" class="images" /></p>
+                <figcaption>
+                    <p> Portfolio </p>
+                    <div>
+                        <p><i class="far fa-eye"></i></p>
+                    </div>
+                </figcaption>
+            </figure>
+
+        </div>
+
+    </section>
+
+    <!--      Contact       -->
+
+    <section id="contact">
+
+        <iframe width="1890" height="830" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDm1ubQqDyUufPAEO6HT8UqHKX9fVz8Ou0&q=25+Rue+d'Hauteville,Paris+France" allowfullscreen>
+        </iframe>
+
+        <div id="conteneur_contact">
+            <form method="post" action="#">
+                <fieldset>
+                    <div class="contact">
+                        <h1>Contact Info</h1>
+                        <p><strong class="web">WebAgency</strong> SAS<br />
+                            25 Rue d'Hauteville 75010 Paris<br />
+                            Tel: 01 02 03 04 05</p>
+                    </div>
+                    <input type="text" name="Name" placeholder="Name" required />
+
+                    <input type="email" name="mail" placeholder="E-mail" required />
+
+                    <input type="text" name="subject" placeholder="Subject" required />
+
+                    <textarea name="message" placeholder="Message" id="message" required></textarea>
+
+                    <div class="rgpd">
+                        <input type="checkbox" name="informations" id="checkbox" value="checkbox" required />
+                        <label for="checkbox">En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées par WebAgency.</label>
+                    </div>
+
+                    <input type="submit" value="Send Message" id="send" />
+                </fieldset>
+            </form>
+        </div>
+
+    </section>
+
+    <div class="mentions">
+        <a href="#">Mentions légales</a> - <a href="#">Cookies</a>
+    </div>
+
+    <script src="projet1.js"></script>
+</body>
+
+</html>

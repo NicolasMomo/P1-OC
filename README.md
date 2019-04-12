@@ -22,3 +22,6 @@ J'ai une bonne et une mauvaise nouvelle.
 La mauvaise, c'est qu'on vous "fait confiance" pour rédiger le texte de présentation de WebAgency. Il va donc falloir rédiger un peu. 😉
 
 La bonne, c'est que vous ne partez pas de rien : le graphiste vous a déjà concocté une petite maquette, ce qui va grandement vous aider !
+
+
+(Les sliders et onglets ne sont pas nécessairement fonctionnels. JavaScript n'est pas requis pour ce projet.)
